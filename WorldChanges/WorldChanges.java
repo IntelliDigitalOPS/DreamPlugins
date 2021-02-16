@@ -105,7 +105,7 @@ public class WorldChanges extends JavaPlugin implements CommandExecutor, TabComp
 	private void generateNew() {
 		cnormal = newWorld(Environment.NORMAL);
 		cnether = newWorld(Environment.NETHER);
-		cend = newWorld(Environment.NETHER);
+		cend = newWorld(Environment.END);
 		System.out.println(ChatColor.YELLOW+"Generated 3 new worlds");
 	}
 	private void changeWorld() {
