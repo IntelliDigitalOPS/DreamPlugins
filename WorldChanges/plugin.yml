@@ -1,0 +1,9 @@
+main: intelli.worldchanges.WorldChanges
+name: WorldChanges
+version: 0.1a
+api-version: 1.16
+description: Changes world every 5 mins
+
+commands:
+  wc:
+    description: Start/Stop
