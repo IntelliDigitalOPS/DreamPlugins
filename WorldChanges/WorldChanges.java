@@ -22,6 +22,8 @@ import org.bukkit.scheduler.BukkitTask;
 
 public class WorldChanges extends JavaPlugin implements CommandExecutor, TabCompleter{
 	
+	//By @Intelli -> https://github.com/IntelliDigitalOPS/
+	
 	Random rand = new Random();
 	World cnormal = null;
 	World cnether = null;
