@@ -20,7 +20,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.scheduler.BukkitTask;
 
-public class WorldChanges extends JavaPlugin implements CommandExecutor, TabCompleter{
+public class WorldChanges extends JavaPlugin implements CommandExecutor{
 	
 	//By @Intelli -> https://github.com/IntelliDigitalOPS/
 	
@@ -34,7 +34,6 @@ public class WorldChanges extends JavaPlugin implements CommandExecutor, TabComp
 	@Override
 	public void onEnable() {
 		rand = new Random(Bukkit.getWorlds().get(0).getSeed());
-		this.getCommand("wc").setTabCompleter(this);
 		System.out.println(ChatColor.YELLOW+"Loaded WorldChanges by @Intelli");
 	}
 	@Override
