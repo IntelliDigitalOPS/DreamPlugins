@@ -1,6 +1,7 @@
 main: intelli.worldchanges.WorldChanges
 name: WorldChanges
 version: 0.1a
+author: Intelli
 api-version: 1.16
 description: Changes world every 5 mins
 
