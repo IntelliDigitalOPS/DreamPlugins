@@ -1,0 +1,10 @@
+main: intelli.manhunt.ManHunt
+name: ManHunt
+author: Intelli
+version: 1.0
+api-version: 1.16
+description: Manhunt
+
+commands:
+  hunt:
+    description: Start/Stop
