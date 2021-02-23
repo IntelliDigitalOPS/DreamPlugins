@@ -7,6 +7,7 @@ import org.bukkit.ChatColor;
 import org.bukkit.Location;
 import org.bukkit.World;
 import org.bukkit.World.Environment;
+import org.bukkit.event.Listener;
 import org.bukkit.WorldCreator;
 import org.bukkit.WorldType;
 import org.bukkit.command.Command;
@@ -20,7 +21,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.scheduler.BukkitTask;
 
-public class WorldChanges extends JavaPlugin implements CommandExecutor{
+public class WorldChanges extends JavaPlugin implements CommandExecutor, Listener{
 	
 	//By @Intelli -> https://github.com/IntelliDigitalOPS/
 	
