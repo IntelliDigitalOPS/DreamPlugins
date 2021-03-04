@@ -1,0 +1,10 @@
+main: intelli.confusingmc.Confused
+name: COnfusingMC
+version: 1.0c
+author: Intelli
+api-version: 1.16
+description: Dream's ConfusingMC plugin recoded from scratch
+
+commands:
+  confusing:
+    description: /confusing [start/stop]
